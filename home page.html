@@ -1,0 +1,127 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TechBuzz - Home</title>
+    <link rel="stylesheet" href="it.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <section nav-bar>
+
+<!--
+         //Navigation Bar //
+        <div class="nav-bar">
+            <a href="#" class="nav-item active">
+                <div class="nav-icon">🏠</div>
+                <span>Home</span>
+            </a>
+            <a href="#" class="nav-item">
+                <div class="nav-icon">🔍</div>
+                <span>Search</span>
+            </a>
+            <a href="#" class="nav-item">
+                <div class="nav-icon">👤</div>
+                <span>Profile</span>
+            </a>
+        </div>
+        </section>
+ -->
+
+    <div class="container">
+        <!-- Left Section -->
+        <div class="left-section">
+            <div class="logo">
+                <img class="logo" src="assets/img/tech buzz.jpeg" alt="">
+            </div>
+            <h2>WE PROVIDE <br>THE BEST TECH <br>SOLUTIONS</h2>
+            <a href="learn.html">
+            <button class="get-started-btn">Get Started</button>
+            </a>
+        </div>
+        
+        
+        <!-- Right Section -->
+        <div class="right-section">
+            <div class="right">
+                <h3><b>OUR IT SERVICES</b></h3>
+                <img class="right-section-img" src="assets/img/OIP.jpeg" alt="">
+            </div>
+            <div class="search-bar">
+                <input type="text" placeholder="search">
+                <i class="fas fa-search"></i>
+            </div>
+            <div class="services">
+    
+                <div class="service-img">
+                    <img class="service-img" src="assets/img/tech buzz.jpeg" alt="">
+                     <a href="home page.html" class="service active">ALL</a>
+                </div>
+                <div class="service1-img">
+                    <img class="service1-img" src="assets/img/apps design.jpeg" alt="">
+                    <a href="app design.html" class="service">App design</a>
+                </div>
+                <div class="service2-img">
+                    <img class="service2-img" src="assets/img/webpage design.jpeg" alt="">
+                    <a href="web de.html" class="service">Web development</a>
+                </div>
+                <div class="service3-img">
+                    <img class="service3-img" src="assets/img/security.jpeg" alt="">
+                    <a href="cyber.html" class="service">Cyber security</a>
+                </div>
+            </div>
+
+ <!--promotions section-->
+<section>
+            <h1 class="promotions-title">promotions</h1>
+            <div class="promotions">
+                <div class="promotion-card">
+                    <h4>Today's offer <br>
+                         Free UI/UX design <br> tutorials <br> on all 3month <br> payment
+                    </h4>
+                </div>
+                <div class="promotion-card2">
+                    <img promotion-img src="assets/img/3rd.jpeg" alt="">
+                </div>
+            </div>
+
+</section>
+
+<!--popular section-->
+            
+ <section class="section-title"> 
+    <h1>popular</h1>          
+<div class="popular-details">
+                <div class="popular-card">
+                    <img src="assets/img/apps design.jpeg" alt="">
+                    <h4>App Design</h4>
+                    <p><span><b>GHC 50</b></span> <b>per month</b></p>
+                    <button class="add-btn">Add one</button>
+                </div>
+                <div class="popular-card">
+                    <img src="assets/img/webpage design.jpeg" alt="">
+                    <h4>Web Design</h4>
+                    <p><span><b>GHC 50</b></span> <b>per month</b></p>
+                    <button class="add-btn">Add one</button>
+                </div>
+            </div>
+            <a href="learn.html">
+            <button class="get-started-btn">GET STARTED</button>
+            </a>
+        </div>
+    </div>
+    
+</section> 
+
+
+    <script>
+        document.querySelectorAll('.add-btn').forEach(button => {
+    button.addEventListener('click', () => {
+        alert('Service added to your plan!');
+    });
+});
+    </script>
+</body>
+</html>

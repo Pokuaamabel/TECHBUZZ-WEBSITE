@@ -1,0 +1,130 @@
+
+
+
+    .left-section {
+        flex: 1;
+        background-color: #1e3a8a;
+        color: white;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        padding: 20px;
+        border-radius: 0 20px 20px 0;
+    }
+    .logo {
+        width: 200px;
+        height: 200px;
+        background-color: #f0f2f5;
+        margin-bottom: 20px;
+        border-radius: 100px;
+    }
+
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    background-color: white;
+    width: 320px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    font-size: 22px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.course {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.course img {
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+    border-radius: 5px;
+}
+
+.course-info h2 {
+    font-size: 19px;
+    margin: 0;
+}
+
+.course-info p {
+    font-size: 14px;
+    color: #a5b329;
+    margin-left: 30px;
+}
+
+.terms {
+    margin: 20px 0;
+}
+
+.terms h3 {
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+
+.terms textarea {
+    width: 100%;
+    height: 60px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.total {
+    text-align: center;
+    font-size: 16px;
+    margin: 10px 0px;
+}
+
+.total span {
+    font-weight: bold;
+    color: #a0951d;
+    margin-left: 70px;
+}
+
+
+button {
+    width: 100%;
+    padding: 10px;
+    font-size: 14px;
+    border: none;
+    border-radius: 5px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.start-learning {
+    background-color: #4a4a8a;
+    color: white;
+}
+
+.start-learning:hover {
+    background-color: #45a049;
+}
+
+.back-to-menu {
+    background-color: #f0f0f0;
+    color: #333;
+}
+
+.back-to-menu:hover {
+    background-color: #ddd;
+}
